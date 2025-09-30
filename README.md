@@ -46,15 +46,15 @@ python -m venv venv
  Mac/Linux:
  source venv/bin/activate
 
-# Step 3 – Install Dependencies
+ Step 3 – Install Dependencies
 pip install -r requirements.txt
 
-# Step 4 – Setup Environment Variables
+ Step 4 – Setup Environment Variables
  Create a .env file in project root with:
  MONGO_URI=mongodb://localhost:27017
  DB_NAME=student_db
 
-# Step 5 – Run Demo Script
+ Step 5 – Run Demo Script
 python src/test_student_ops.py
 
 ## 🖥️ Output Example
