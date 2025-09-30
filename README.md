@@ -103,21 +103,53 @@ Number of records deleted: 1
 === FINAL DATABASE STATE ===
 []
 
-### Screenshots -:
+## Screenshots
 
 ### db_config.py
 ✅ MongoDB Connection Successful  
 
-![db_config.py](screenshots/db_config.py.png)  
+![db_config](screenshots/db_config.py.png)
 
 ### student_ops.py
 ✅ MongoDB Connection Successful  
 
-![student_ops.py](screenshots/student_ops.py.png)  
+![student_ops](screenshots/student_ops.py.png)
 
 ### test_student_ops.py
-...
-![test_student_ops.py](screenshots/test_student_ops.py.png)
+✅ MongoDB Connection Successful
+=== CREATING INDEXES ===
+Indexes created successfully!
+
+=== CREATE OPERATION ===
+Inserted Student ID: 68dbc7cb2b8098edece35306
+
+=== READ OPERATION ===
+All Students:
+{'_id': ObjectId('68dbc7cb2b8098edece35306'), 'name': 'Vishant Rana', 'age': 22, 'course': {'name': 'Python Backend', 'duration': '3 months', 'level': 'Beginner'}, 'enrollment_date': '2025-09-30', 'status': 'active'}
+
+Find Student by Name:
+{'_id': ObjectId('68dbc7cb2b8098edece35306'), 'name': 'Vishant Rana', 'age': 22, 'course': {'name': 'Python Backend', 'duration': '3 months', 'level': 'Beginner'}, 'enrollment_date': '2025-09-30', 'status': 'active'}
+
+=== ADVANCED QUERIES ===
+Students with Age > 20:
+{'_id': ObjectId('68dbc7cb2b8098edece35306'), 'name': 'Vishant Rana', 'age': 22, 'course': {'name': 'Python Backend', 'duration': '3 months', 'level': 'Beginner'}, 'enrollment_date': '2025-09-30', 'status': 'active'}
+
+Students enrolled in Python Backend:
+{'_id': ObjectId('68dbc7cb2b8098edece35306'), 'name': 'Vishant Rana', 'age': 22, 'course': {'name': 'Python Backend', 'duration': '3 months', 'level': 'Beginner'}, 'enrollment_date': '2025-09-30', 'status': 'active'}
+
+Students with Age 18 or 22:
+{'_id': ObjectId('68dbc7cb2b8098edece35306'), 'name': 'Vishant Rana', 'age': 22, 'course': {'name': 'Python Backend', 'duration': '3 months', 'level': 'Beginner'}, 'enrollment_date': '2025-09-30', 'status': 'active'}
+
+=== UPDATE OPERATION ===
+Number of records updated: 1
+
+=== DELETE OPERATION ===
+Number of records deleted: 1
+
+=== FINAL DATABASE STATE ===
+
+![test_student_ops](screenshots/test_student_ops.py.png)
+
 
 Notes -: .gitignore keeps sensitive files out of GitHub -:
 
