@@ -103,6 +103,22 @@ Number of records deleted: 1
 === FINAL DATABASE STATE ===
 []
 
+### Screenshots -:
+
+### db_config.py
+✅ MongoDB Connection Successful  
+
+![db_config.py](screenshots/db_config.py.png)  
+
+### student_ops.py
+✅ MongoDB Connection Successful  
+
+![student_ops.py](screenshots/student_ops.py.png)  
+
+### test_student_ops.py
+...
+![test_student_ops.py](screenshots/test_student_ops.py.png)
+
 Notes -: .gitignore keeps sensitive files out of GitHub -:
 
 venv/
