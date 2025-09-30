@@ -1,9 +1,9 @@
 # 📚 Student Database Management (MongoDB)
 
 ## 📝 Description
-# A backend application to manage student records using MongoDB.
-# Supports CRUD operations, advanced query filtering, optimized schema, and indexing for faster retrieval.
-# Designed with a focus on flexibility and NoSQL document structure.
+ A backend application to manage student records using MongoDB.
+ Supports CRUD operations, advanced query filtering, optimized schema, and indexing for faster retrieval.
+ Designed with a focus on flexibility and NoSQL document structure.
 
 ## 🚀 Features
 - CRUD Operations → Create, Read, Update, Delete student records
@@ -33,14 +33,14 @@
 
 ## ⚙️ Setup & Installation
 
-# Step 1 – Clone Repository
+ Step 1 – Clone Repository
 git clone https://github.com/vishantrana007/Student-Database-Management.git
 cd Student-Database-Management
 
-# Step 2 – Create Virtual Environment
+ Step 2 – Create Virtual Environment
 python -m venv venv
 
-# Activate Virtual Environment
+ Activate Virtual Environment
  Windows:
  venv\Scripts\activate 
  Mac/Linux:
