@@ -34,7 +34,7 @@
 ## ⚙️ Setup & Installation
 
  Step 1 – Clone Repository
-git clone https://github.com/vishantrana007/Student-Database-Management.git
+git clone git@github.com:vishantrana007/Student-Database-Management.git
 cd Student-Database-Management
 
  Step 2 – Create Virtual Environment
